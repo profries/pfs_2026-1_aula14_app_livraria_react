@@ -7,6 +7,11 @@ async function listar() {
     return response.data;
 }
 
+async function inserir(livro: any){
+    const response = await axios.post(URI, livro);
+    return response.data;
+}
+
 export default {
-    listar
+    listar, inserir
 }

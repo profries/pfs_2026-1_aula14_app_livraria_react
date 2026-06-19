@@ -1,4 +1,5 @@
 import Carroussel from "./components/Carroussel"
+import FormLivros from "./components/FormLivros"
 import ListCardLivros from "./components/ListCardLivros"
 import Menu from "./components/Menu"
 
@@ -12,7 +13,8 @@ function App() {
           <h1>Minha Petshop</h1>
         </div>
         <Carroussel />
-        <ListCardLivros></ListCardLivros>
+        {/* <ListCardLivros></ListCardLivros> */}
+        <FormLivros></FormLivros>
       </main>
 
       <footer className="w3-container w3-margin-top w3-black ">
