@@ -1,13 +1,9 @@
 import { useEffect, useState } from "react"
 import CardLivro from "./CardLivro"
 import LivroApiService from "../service/LivroApiService"
+import type { Livro } from "../models/Livro";
 
-interface Livro {
-    id: string;
-    imagem: string;
-    titulo: string;
-    preco: number;
-}
+
 
 export default function ListCardLivros() {
     const [listaLivros, setListaLivros] = useState([]);

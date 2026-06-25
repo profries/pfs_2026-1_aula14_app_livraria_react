@@ -1,10 +1,10 @@
 {
   "livros": [
     {
-      "id": 1,
       "titulo": "O Pequeno Príncipe",
       "imagem": "pequenoprincipe.jpg",
-      "preco": 51
+      "preco": 52,
+      "id": 1
     },
     {
       "id": 2,
@@ -19,10 +19,10 @@
       "preco": 32
     },
     {
-      "id": 4,
-      "titulo": "Livro 4",
+      "titulo": "Livro 4A",
       "imagem": "pequenoprincipe.jpg",
-      "preco": 85
+      "preco": 85,
+      "id": 4
     },
     {
       "id": 5,
